@@ -2,23 +2,26 @@ package Builder;
 
 import Builder.builder.*;
 
+/**
+ * Proposito
+ * 	Separar la construccion de un objeto complejo de su representacion 
+ * de forma que el mismo proceso de construccion pueda crear diferentes representaciones
+ * 
+ * mas contexto 
+ * https://programacion.net/articulo/patrones_de_diseno_iii_patrones_de_creacion_builder_1002
+ * 
+ * Problema :
+ * Un único proceso de construcción debe ser capaz de construir distintos objetos complejos, abstrayéndonos de los detalles particulares de cada uno de los tipos.
+ * 
+ * aplicacion 
+ * 1. Nuestro sistema trata con objetos complejos (compuestos por muchos atributos) pero el número de configuraciones es limitada.
+ * 2. El algoritmo de creación del objeto complejo puede independizarse de las partes que lo componen y del ensamblado de las mismas.
+ * 3. el algoritmo para crear un objeto complejo debe ser independiente de las partes de que se compone dicho objeto y de como se ensamblan
+ * 4. El proceso de construccion debe permitir diferentes representaciones del objeto que esta siendo construido
+ */
 public class PrincipalBuilder {
 	
-	/**
-	 * Proposito
-	 * 	Separar la construccion de un objeto complejo de su representacion 
-	 * de forma que el mismo proceso de construccion pueda crear diferentes representaciones
-	 * 
-	 * mas contexto 
-	 * https://programacion.net/articulo/patrones_de_diseno_iii_patrones_de_creacion_builder_1002
-	 * 
-	 * Problema :
-	 * Un único proceso de construcción debe ser capaz de construir distintos objetos complejos, abstrayéndonos de los detalles particulares de cada uno de los tipos.
-	 * 
-	 * aplicacion 
-	 * 1. Nuestro sistema trata con objetos complejos (compuestos por muchos atributos) pero el número de configuraciones es limitada.
-	 * 2. El algoritmo de creación del objeto complejo puede independizarse de las partes que lo componen y del ensamblado de las mismas.
-	 */
+	
 	
 	public static void main(String[] args) {
 		try {

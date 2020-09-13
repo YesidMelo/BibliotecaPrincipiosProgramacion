@@ -6,14 +6,22 @@ import abstractfactory.fabrica.FabricaConcreta2;
 import abstractfactory.producto.ProductoAbstractoA;
 import abstractfactory.producto.ProductoAbstractoB;
 
+/**
+ * Proposito:  
+ * Proporciona un a interfaz para crear familias de objetos relacionados 
+ * o que dependen entre si sin especificar clases concretas
+ * 
+ * Aplicabilidad:
+ * 1. Un sistema debe ser independiente de como se crean componen o representan sus productos
+ * 2. Un sistema debe ser configurado con una familia  de productos entre varios;
+ * 3. Una familia de objetos producto relacionados esta diseñada para ser usada conjuntamente y es necesario hacer
+ *    cumplir esta restriccion
+ * 4. quiere proporcionar una biblioteca de Clases productos y solo quiere revelar sus interfaces no sus implementaciones
+ * 
+ */
 public class PrincipalAbstractFactory {
 	
-	/**
-	 * Proposito:  
-	 * Proporciona un a interfaz para crear familias de objetos relacionados 
-	 * o que dependen entre si sin especificar clases concretas
-	 * 
-	 */
+	
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
