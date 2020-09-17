@@ -20,7 +20,7 @@ import PatronesEstructurales.Adapter.patron.PersonaVieja;
  * 3. (solamente en el caso de un adaptador de objetos ) es necesario usar varias subclases existentes pero no resulta practico
  *    adaptar su interfaz heredando de cada una de ellas. un adaptador de objetos. puede adaptar la interfaz de su clase padre. 
  *    
- *      Ejemplo de https://www.arquitecturajava.com/java-adapter-pattern-y-su-utilidad/
+ *      Ejemplo de http://migranitodejava.blogspot.com/2011/06/adapter.html
  *      libro patrones de diseño gamma
  * @author Yesid
  *
