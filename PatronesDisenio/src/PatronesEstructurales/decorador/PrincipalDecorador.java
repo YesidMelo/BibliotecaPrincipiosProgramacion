@@ -17,6 +17,8 @@ import PatronesEstructurales.decorador.patron.RelojLujoDecorador;
  *    produciendose una explosion de subclases para permitir todas las combinaciones, o puede ser una definicion de una clase oculta
  *    o que no este disponible para ser heredada
  *    
+ *    codigo fuente : https://experto.dev/patron-de-diseno-decorator-en-java/
+ *    
  *    //este patron sirve para adicionar caracteristicas unicas a los npc en videojuegos ademas de los comunes
  * @author Yesid
  *
